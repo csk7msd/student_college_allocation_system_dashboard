@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the allocations CSV (uploaded file)
-allocations_df = pd.read_csv("/home/user/student_college_allocations_system.csv")
+allocations_df = pd.read_csv("student_college_allocations_system.csv")
 
 # Streamlit Dashboard UI
 st.set_page_config(page_title="🎓 Student College Allocation Dashboard", layout="centered")
